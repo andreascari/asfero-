@@ -52,8 +52,8 @@ closeAll();
 
 function closeAll(){
 
-  var videos = ["v1", "v2", "v3", "v4", "v5", "v6","v7","v8", "v9","v10","v11","v12","v13","v14","v15"];
-  var arrows = ["a1", "a2", "a3", "a4", "a5", "a6","a7","a8", "a9","a10","a11","a12","a13","a14","a15"];
+  var videos = ["v1", "v2", "v3", "v4", "v5", "v6","v7","v8", "v9","v10","v11","v12","v13","v14","v15","v16"];
+  var arrows = ["a1", "a2", "a3", "a4", "a5", "a6","a7","a8", "a9","a10","a11","a12","a13","a14","a15","a16"];
   var i;
 
   for(i=0; i< videos.length; i++){
