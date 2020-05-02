@@ -1,3 +1,6 @@
+//this is the function that shows and hides each video and rotates the arrows
+// it should be served with identifiers for the row element and the arrow
+
 function showhide(identifier,arrow) {
 
   console.log(identifier);
@@ -16,6 +19,9 @@ function showhide(identifier,arrow) {
     }
 }
 
+
+// this functions scroll down the page to reach archive or contact sections
+// please note: both of them use the close all function
 
 function showArchive() {
 
@@ -41,7 +47,7 @@ closeAll();
 }
 
 
-
+// closing all the elements and putting the arrows to normal orientation
 
 
 function closeAll(){
