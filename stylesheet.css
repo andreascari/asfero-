@@ -241,7 +241,6 @@ transition: transform 300ms;
   transition: height 0.5s,
               opacity 0.4s;
   overflow: hidden;
-
 }
 
 .videoOpened{
@@ -263,6 +262,10 @@ transition: transform 300ms;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+}
+
+.videoColumnClosed{
+  display: none;
 }
 
 

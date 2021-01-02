@@ -1,21 +1,23 @@
 //this is the function that shows and hides each video and rotates the arrows
 // it should be served with identifiers for the row element and the arrow
 
-function showhide(identifier,arrow) {
+function showhide(identifier,arrow,video) {
 
-  console.log(identifier);
   var x = document.getElementById(identifier);
   var a = document.getElementById(arrow);
+  var y = document.getElementById(video);
 
     if (x.className!="videoOpened"){
       x.className="videoOpened";
       a.className="arrowRotated";
+      y.className="videoColumn"
       $([document.documentElement, document.body]).animate({
         scrollTop: $(x).offset().top-80
     }, 300,"swing");
     }else{
       x.className="videoClosed";
       a.className="arrow";
+      y.className="videoColumnClosed";
     }
 }
 
