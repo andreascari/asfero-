@@ -12,6 +12,29 @@ body{
 }
 
 
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: black;
+}
+
+::selection {
+  color: white;
+  background: black;
+}
+
+
+.noSelect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+
+
 .websiteBody{
   display: flex;
   flex-direction: column;
@@ -83,12 +106,20 @@ body{
   width:100%;
 }
 
-
-.videosContainer{
+.midContainer{
   width: 100%;
   max-width: 1295px;
   height:200vh;
   padding-bottom: 10%;
+  background-color:white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.videosContainer{
+  width: 100%;
+  max-width: 1295px;
   background-color:white;
   display: flex;
   flex-direction: column;
